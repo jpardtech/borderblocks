@@ -24,16 +24,20 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="jquery.mobile-1.4.4.min.css">
+<link rel="stylesheet" type="text/css" href="mainstyle.css">
 <script src="jquery.js"></script>
 <script src="jquery.mobile-1.4.4.min.js"></script>
 </head>
 <body>
 
 <div data-role = "page" id = "menu">
-	<h1>Border Blocks</h1>
-	<a href="#game" class="ui-btn"><button onclick="pause = false">Play</button></a>
-	<a href="#highscore" class="ui-btn"><button onclick="drawHs()">High Score</button></a>
+	<div >
+	<h1 class="ui-overlay-shadow" id = "title">Border Blocks</h1>
 
+	
+		<a href="#game" class="ui-btn" ><button onclick="pause = false" >Play</button></a>
+		<a href="#highscore" class="ui-btn"><button onclick="drawHs()">High Score</button></a>
+	</div>
 </div>
 
 
