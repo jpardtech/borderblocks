@@ -1,5 +1,5 @@
 
-	alert("hello")
+	
 
 	canvas = document.getElementById("myCanvas")
 	canvas.width = window.innerWidth;
